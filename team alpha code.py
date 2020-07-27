@@ -154,15 +154,26 @@ while resume=="y":
         
                             
     elif choice==3:     
-            print("categories")
-            category=int(input("Enter category:"))
-            if category==1:
-                wb.open("https://youtu.be/uN1EJJvJYYM")
-            elif category==2:
-                wb.open_new_tab("https://github.com/TechClubPro/Python-Reference-Codes/blob/master/BoredomApp.py")
-        
-        
-        
+        print("Showing you subjects")
+        print("1. Science")
+        print("2. Maths")
+        print("3. hindi")
+        print("4. english")
+        h=int(input("enter subject number: "))
+        if h==1:
+            print("Showing you Science")
+            wb.open("https://www.youtube.com/channel/UCKuZYmp_lpsIN4WkRB4bECw?view_as=subscriber")
+            print("showing you site of this channel")
+            wb.open("https://sites.google.com/view/infoon-techhome")
+        elif h == 2:
+            print("Showing you Maths")
+            wb.open("https://www.youtube.com/watch?v=i7AFqlaZmZA")
+        elif h == 3:
+            print("Showing you hindi")
+            wb.open("https://www.youtube.com/watch?v=cWxgxRhUgR8")
+        elif h == 4:
+            print("showing you english")
+            wb.open("https://www.youtube.com/watch?v=Cy1J9cos9FI")
     elif choice==4:
         break
     
